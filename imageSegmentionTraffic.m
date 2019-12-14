@@ -1,5 +1,5 @@
 clear all;
-I = imread('road.png');
+I = imread('road.png');     
 J = imread('roadandcars.png');
 K = imabsdiff(I,J);
 th = graythresh(K);

@@ -2,7 +2,7 @@ clear all;
 
 a = arduino();
 clear a;
-   a = arduino('COM10', 'Uno');
+   a = arduino('COM3', 'Uno');
    R1='D13';
    G1='D12';
    Y1='D11';
